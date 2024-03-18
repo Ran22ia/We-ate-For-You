@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">My Resto</string>
+    <string name="label_first_name">Prénom</string>
+    <string name="label_last_name">Nom</string>
+    <string name="label_email">Email</string>
+    <string name="button_submit">Enregistrer</string>
+    <string name="label_service_quality">Qualité du service</string>
+    <string name="label_food_quality">Qualité des plats</string>
+    <string name="label_average_price">Prix moyen
+        (en dt)</string>
+    <string name="label_star_rating">Note</string>
+    <string name="excellent">Excellent</string>
+    <string name="bien">Bien</string>
+    <string name="moyen">Moyen</string>
+    <string name="mediocre">Mediocre</string>
+    <string name="welcome">Bienvenue!</string>
+    <string name="Note">Note globale :</string>
+    <string name="test">TEST</string>
+    <string name="choose_if_the_food_is_good">Choose if the food is good</string>
+    <string name="choose_if_the_food_is_average">Choose if the food is average</string>
+    <string name="choose_if_the_service_is_poor">Choose if the service is poor</string>
+    <string name="choose_if_the_service_is_excellent">Choose if the service is excellent</string>
+    <string name="label_phone_number">Numéro de téléphone</string>
+    <string name="add">add</string>
+    <string name="_1">1</string>
+    <string name="nom1">Adresse</string>
+    <string name="resto1">Nom Resto</string>
+    <string name="clear">réinitialiser</string>
+    <string name="modify">Modifier</string>
+    <string name="adress">Adresse</string>
+    <string name="delete">Supprimer</string>
+
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/RestaurantName2"
+        android:layout_width="401dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:hint="Nom du restaurant"
+        android:inputType="textCapSentences" />
+
+    <EditText
+        android:id="@+id/adress2"
+        android:layout_width="401dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/RestaurantName2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Adresse du restaurant"
+        android:inputType="textCapSentences" />
+
+    <EditText
+        android:id="@+id/editTextAveragePrice2"
+        android:layout_width="182dp"
+        android:layout_height="57dp"
+        android:layout_below="@id/adress2"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="160dp"
+        android:hint="@string/label_average_price"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textService2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ratingService2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:text="Qualité du service:"
+        android:textSize="18sp" />
+
+
+    <RatingBar
+        android:id="@+id/ratingService2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="256dp"
+        android:contentDescription="@string/label_star_rating"
+        android:numStars="4"
+        android:rating="0"
+        android:stepSize="1" />
+
+    <TextView
+        android:id="@+id/TextFood2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="274dp"
+        android:text="Qualité des plats:"
+        android:textSize="18sp" />
+
+    <RatingBar
+        android:id="@+id/ratingFood2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextFood2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:contentDescription="@string/label_star_rating"
+        android:numStars="4"
+        android:rating="0"
+        android:stepSize="1" />
+
+    <TextView
+        android:id="@+id/textViewRating2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ratingBar2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-60dp"
+        android:text="@string/Note"
+        android:textSize="18sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="72dp"
+        android:contentDescription="@string/Note"
+        android:numStars="5"
+        android:rating="0"
+        android:stepSize="1" />
+
+    <Button
+        android:id="@+id/UpdateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/rounded_corner_view"
+        android:text="Mettre à jour"></Button>
+
+</RelativeLayout>

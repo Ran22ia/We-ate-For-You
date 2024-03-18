@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <corners android:bottomRightRadius="8dp"
+        android:bottomLeftRadius="8dp"
+        android:topRightRadius="8dp"
+        android:topLeftRadius="8dp"/>
+        <!--&lt;!&ndash; This is the border color &ndash;&gt;-->
+        <stroke android:width="2dp" android:color="@color/teal_700" />
+
+        <!--This is the background color-->
+        <solid android:color="@color/teal_200" />
+
+</shape>

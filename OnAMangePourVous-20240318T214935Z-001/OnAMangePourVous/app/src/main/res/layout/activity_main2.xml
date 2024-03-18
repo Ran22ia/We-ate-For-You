@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ android:background="@drawable/harabyemchy">
+
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="122dp"
+        android:text="@string/welcome"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/RestaurantName"
+        android:layout_width="401dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/textViewWelcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:hint="Nom du restaurant"
+        android:inputType="textCapSentences"
+        android:textColorHint="#4A148C" />
+
+    <EditText
+        android:id="@+id/adress"
+        android:layout_width="401dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/RestaurantName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Adresse du restaurant"
+        android:inputType="textCapSentences"
+        android:textColorHint="#4A148C" />
+
+    <EditText
+        android:id="@+id/editTextAveragePrice"
+        android:layout_width="182dp"
+        android:layout_height="57dp"
+        android:layout_below="@id/adress"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="160dp"
+        android:hint="@string/label_average_price"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="#4A148C"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ratingService"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:text="Qualité du service:"
+        android:textColor="#1A237E"
+        android:textSize="18sp" />
+
+
+    <RatingBar
+        android:id="@+id/ratingService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="230dp"
+        android:contentDescription="@string/label_star_rating"
+        android:numStars="4"
+        android:rating="0"
+        android:stepSize="1" />
+
+    <TextView
+        android:id="@+id/TextFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="274dp"
+        android:text="Qualité des plats:"
+        android:textColor="#4A148C"
+        android:textSize="18sp" />
+
+    <RatingBar
+        android:id="@+id/ratingFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextFood"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:contentDescription="@string/label_star_rating"
+        android:numStars="4"
+        android:rating="0"
+        android:stepSize="1" />
+
+    <TextView
+        android:id="@+id/textViewRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ratingBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-60dp"
+        android:text="@string/Note"
+        android:textColor="#311B92"
+        android:textSize="18sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="72dp"
+        android:contentDescription="@string/Note"
+        android:numStars="5"
+        android:rating="0"
+        android:stepSize="1" />
+
+    <Button
+        android:id="@+id/valider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/rounded_corner_view"
+        android:text="Valider"></Button>
+
+    <Button
+        android:id="@+id/See"
+        android:layout_width="66dp"
+        android:layout_height="33dp"
+        android:background="@drawable/open_database"
+        tools:ignore="SpeakableTextPresentCheck" />
+</RelativeLayout>
+
